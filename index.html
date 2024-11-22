@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/Computer-Hardware-Keyboard-icon.png">
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- CSS STYLING -->
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+  <title>Are You My Type?</title>
+</head>
+
+<body>
+
+  <!-- ENTIRE GAME SECTION -->
+  <main class="game-section">
+
+    <!-- TOP CODE EDITOR BAR -->
+    <div class="bg-top"><i class="fas fa-caret-left"></i><i class="fas fa-caret-right"></i>
+      <div class="file-name">are_you_my_type.game</div>
+      <i class="fas fa-caret-down"></i>
+    </div>
+    <div class="stats">
+      <h2 class="score">SCORE:
+        <span class="metric"></span>
+      </h2>
+      <h2 class="timer">TIMER:
+        <span class="metric"></span>
+      </h2>
+    </div>
+
+    <!-- BOTTOM CODE EDITOR BAR -->
+    <div class="bg-bottom">Line 1, Column 1</div>
+
+    <!-- INTRO SLIDES -->
+    <section class="intro">
+
+      <!-- TOP WINDOW BAR  -->
+      <div class="window-line">
+        <i class="fas fa-circle circle-red"></i>
+        <i class="fas fa-circle circle-orange"></i>
+        <i class="fas fa-circle circle-green"></i>
+        <p class="bash-window">1. project_3</p>
+      </div>
+
+      <!-- FIRST SLIDE: INTRO -->
+      <section class="intro-title">
+        <h1><span class="blink-text">> </span><span class="welcome blink-cursor">Welcome to: ARE YOU MY TYPE? ;)</span>
+        </h1>
+        <a href="http://khoipham.net">
+          <h4 class="author">BY: KHOI PHAM</h4>
+        </a>
+        <button class="read-rules">PRESS ENTER TO CONTINUE</button>
+      </section>
+
+      <!-- SECOND SLIDE: RULES -->
+      <section class="intro-rules ">
+        <h3>> <span class="rules-title">RULES</span></h3>
+        <ul class="rules">
+          <li class="rule-1">Type any of the words you see on your screen to get points.</li>
+          <li class="rule-2">Longer words give more points.</li>
+          <li class="rule-3">Press ENTER to quickly erase your current input.</li>
+        </ul>
+        <h3>> <span class="win-title">YOU WIN IF:</span></h3>
+        <ul class="win-conditions">
+          <li class="win-1">Your score reaches 2500.</li>
+        </ul>
+        <h3>> <span class="lose-title">YOU LOSE IF:</span></h3>
+        <ul class="lose-conditions">
+          <li class="lose-1">You have more than 10 words unanswered on your screen.</li>
+          <li class="lose-2">Timer reaches ZERO.</li>
+        </ul>
+        <button class="game-start">PRESS <span>ENTER</span> TO START</button>
+      </section>
+    </section>
+
+
+    <!-- WRAPPER FOR ACTUAL WORDS GENERATED IN GAME -->
+    <div class="word-wrapper ">
+      <form class="user-form" action="" autocomplete="off">
+        <label for="user-input" class="visuallyhidden ">User Input</label>
+        <input type="text" name="user-input" id="user-input" class="user-input" autocomplete="off">
+      </form>
+      <div class="words">
+      </div>
+    </div>
+
+    <!-- ENDING SLIDES -->
+    <section class="ending ">
+
+      <!-- VICTORY SLIDE -->
+      <section class="ending-win ">
+        <h2 class="ending-win-title">CONGRATULATIONS!</h2>
+        <p class="ending-win-msg">You ARE my type.</p>
+        <div class="ending-stats ">
+          <p class="stat-container">You typed: <span class="ending-stat ending-number-of-words">0</span> words</p>
+          <p class="stat-container">Average rate (per second): <span
+              class="ending-stat ending-average-typing-second">0</span>
+            words/second</p>
+          <p class="stat-container">Average rate (per minute): <span
+              class="ending-stat ending-average-typing-minute">0</span>
+            words/minute</p>
+        </div>
+        <button class="reset">PRESS <span>ENTER</span> TO PLAY AGAIN</button>
+
+
+      </section>
+
+      <!-- LOSING SLIDE -->
+      <section class="ending-lose ">
+        <h2 class="ending-lose-title">GAME OVER</h2>
+        <p class="ending-sorry"> Sorry, you're not my type.</p>
+        <button class="reset ">PRESS <span>ENTER</span> TO PLAY AGAIN</button>
+      </section>
+
+      <!-- CREDITS -->
+      <section class="credits">
+        <p>Word bank from <a href="https://www.vocabulary.com/lists/191545">https://www.vocabulary.com</a></p>
+        <p>Favicon from <a href="http://icons8.com/license/">http://icons8.com/license</a></p>
+        <p>
+          Icons from <a href="https://fontawesome.com/">https://fontawesome.com</a></p>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- FOR REGULAR JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+  <!-- FOR JQUERY UI -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+  <!-- FOR JS SCRIPTS -->
+  <script src="./js/words.js "></script>
+  <script src="./js/utils.js "></script>
+  <script src="./js/animation.js "></script>
+  <script src="script.js "></script>
+</body>
+
+</html>
