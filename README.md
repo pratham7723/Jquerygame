@@ -4,7 +4,9 @@
 A typing game where the goal is 2500 points before 10 words on screen. Longer words give more points. Tech stack includes JavaScript, jQuery, HTML and CSS.
 
 
+## Demo
 
+**Hosted Link:** https://type-it-quick.netlify.app/
 
 
 ## Features
