@@ -8,6 +8,8 @@ A typing game where the goal is 2500 points before 10 words on screen. Longer wo
 
 **Hosted Link:** https://type-it-quick.netlify.app/
 
+https://github.com/user-attachments/assets/4269f6ae-b8b6-4b25-9fc4-cc3b5002e767
+
 
 ## Features
 
