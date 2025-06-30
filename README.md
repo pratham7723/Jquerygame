@@ -24,8 +24,8 @@ A typing game where the goal is 2500 points before 10 words on screen. Longer wo
 
 ## Tech Stack
 
-**FrontEnd:** Bootstrap, HTML and CSS    
-**Logic & Animation:** JavaScript and jQuery
+**FrontEnd:** Bootstrap, HTML, CSS    
+**Logic & Animation:** JavaScript, jQuery
 
 
 ## Run Locally
