@@ -30,7 +30,7 @@ A typing game where the goal is 2500 points before 10 words on screen. Longer wo
 
 ## Run Locally
 
-Clone the project
+Clone the Project
 
 ```bash
   git clone https://github.com/AkshatPandey2006/Type_It
