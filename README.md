@@ -19,22 +19,20 @@ A typing game where the goal is 2500 points before 10 words on screen. Longer wo
 ![App Screenshot](./1.png)
 ![App Screenshot](./2.png)
 ![App Screenshot](./3.png)
+
 ## Tech Stack
 
-**FrontEnd:** BootStrap, HTML, SCSS and CSS
+**FrontEnd:** Bootstrap, HTML and CSS    
 **Logic & Animation:** JavaScript and jQuery
 
 
-
-## Demo
-
-**Hosted Link:** https://type-it-quick.netlify.app/
 ## Run Locally
 
 Clone the project
 
 ```bash
   git clone https://github.com/AkshatPandey2006/Type_It
+```
 
 Open "index.html"
 
