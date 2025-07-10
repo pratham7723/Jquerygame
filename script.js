@@ -161,7 +161,6 @@ gameApp.playAgain = function () {
 gameApp.init = function () {
   // Set a reasonable win threshold and reset score
   gameApp.score = 0;
-  gameApp.winningScoreThreshold = 100; // or your preferred value
   $(".score").find(".metric").text(gameApp.score);
   $(".timer").find(".metric").text(gameApp.timerStart);
   $(".score, .timer, .user-input, .words").show();
