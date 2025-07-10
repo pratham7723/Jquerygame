@@ -1,4 +1,3 @@
-// words scraped from following link: https://www.vocabulary.com/lists/191545
 const words = [
   "abject",
   "aberration",
